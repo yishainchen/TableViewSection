@@ -117,8 +117,7 @@
    
     ViewController *test2obj = [secondStoryBoard instantiateViewControllerWithIdentifier:@"test2"];
     
-    [self.navigationController pushViewController:test2obj animated:YES];
-
+    [self presentViewController:test2obj animated:YES completion:nil];
 }
 - (IBAction)oneBtn:(id)sender {
     str = @"IOS班";
@@ -137,7 +136,7 @@
     str1 = @"放牛班";
     str2 = @"師資";
     listOne = [[NSArray alloc]initWithObjects:@"Eric",@"Sean",@"Tank",@"Evan", nil];
-    listTwo = [[NSArray alloc]initWithObjects:@"Geoge",@"Win",@"Bruce",@"Hexter",@"Mike", nil];
+    listTwo = [[NSArray alloc]initWithObjects:@"Geoge",@"Win",@"Bruce",@"Hexter",@"Mike", nil]; 
     listThree = [[NSArray alloc]initWithObjects:@"Peter",@"Brain",@"iHower",@"Bernard",@"Hans", nil];
     list = [[NSMutableArray alloc]initWithObjects:listOne,listTwo,listThree, nil];
    [self.secondTableView reloadData];

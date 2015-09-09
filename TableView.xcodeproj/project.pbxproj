@@ -18,7 +18,9 @@
 		8442855E1B9C118C008E8A13 /* cTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442855D1B9C118C008E8A13 /* cTableViewController.m */; };
 		844285611B9C11A0008E8A13 /* cTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844285601B9C11A0008E8A13 /* cTableViewCell.m */; };
 		844285631B9C285D008E8A13 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 844285621B9C285D008E8A13 /* image.png */; };
-		84921D111B9EC5ED00249954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84921D101B9EC5ED00249954 /* Main.storyboard */; };
+		8448F86D1BA046A10097F637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8448F86C1BA046A10097F637 /* Main.storyboard */; };
+		8448F8701BA046B70097F637 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448F86F1BA046B70097F637 /* NextViewController.m */; };
+		84921D111B9EC5ED00249954 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84921D101B9EC5ED00249954 /* Third.storyboard */; };
 		84921D141B9EC63000249954 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84921D131B9EC63000249954 /* SecondViewController.m */; };
 		84921D161B9ED7F800249954 /* segueControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84921D151B9ED7F800249954 /* segueControl.xib */; };
 /* End PBXBuildFile section */
@@ -37,8 +39,8 @@
 		8442852A1B9C00E9008E8A13 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442852E1B9C00E9008E8A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8442852F1B9C00E9008E8A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		844285311B9C00E9008E8A13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		844285321B9C00E9008E8A13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844285311B9C00E9008E8A13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TableView/AppDelegate.h; sourceTree = "<group>"; };
+		844285321B9C00E9008E8A13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TableView/AppDelegate.m; sourceTree = "<group>"; };
 		844285351B9C00E9008E8A13 /* TableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableView.xcdatamodel; sourceTree = "<group>"; };
 		844285371B9C00E9008E8A13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		844285381B9C00E9008E8A13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -53,7 +55,10 @@
 		8442855F1B9C11A0008E8A13 /* cTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cTableViewCell.h; path = ../cTableViewCell.h; sourceTree = "<group>"; };
 		844285601B9C11A0008E8A13 /* cTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cTableViewCell.m; path = ../cTableViewCell.m; sourceTree = "<group>"; };
 		844285621B9C285D008E8A13 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../image.png; sourceTree = "<group>"; };
-		84921D101B9EC5ED00249954 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8448F86C1BA046A10097F637 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8448F86E1BA046B70097F637 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		8448F86F1BA046B70097F637 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		84921D101B9EC5ED00249954 /* Third.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		84921D121B9EC63000249954 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		84921D131B9EC63000249954 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84921D151B9ED7F800249954 /* segueControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = segueControl.xib; sourceTree = "<group>"; };
@@ -80,10 +85,8 @@
 		844285211B9C00E9008E8A13 = {
 			isa = PBXGroup;
 			children = (
-				84921D151B9ED7F800249954 /* segueControl.xib */,
-				84921D121B9EC63000249954 /* SecondViewController.h */,
-				84921D131B9EC63000249954 /* SecondViewController.m */,
-				84921D101B9EC5ED00249954 /* Main.storyboard */,
+				8448F86B1BA0467C0097F637 /* SecondTable */,
+				8448F86A1BA0464F0097F637 /* MainTableView */,
 				8442852C1B9C00E9008E8A13 /* TableView */,
 				844285491B9C00E9008E8A13 /* TableViewTests */,
 				8442852B1B9C00E9008E8A13 /* Products */,
@@ -106,8 +109,6 @@
 				844285601B9C11A0008E8A13 /* cTableViewCell.m */,
 				8442855C1B9C118C008E8A13 /* cTableViewController.h */,
 				8442855D1B9C118C008E8A13 /* cTableViewController.m */,
-				844285311B9C00E9008E8A13 /* AppDelegate.h */,
-				844285321B9C00E9008E8A13 /* AppDelegate.m */,
 				844285621B9C285D008E8A13 /* image.png */,
 				844285371B9C00E9008E8A13 /* ViewController.h */,
 				844285381B9C00E9008E8A13 /* ViewController.m */,
@@ -144,6 +145,29 @@
 				8442854B1B9C00E9008E8A13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8448F86A1BA0464F0097F637 /* MainTableView */ = {
+			isa = PBXGroup;
+			children = (
+				844285311B9C00E9008E8A13 /* AppDelegate.h */,
+				84921D121B9EC63000249954 /* SecondViewController.h */,
+				84921D131B9EC63000249954 /* SecondViewController.m */,
+				84921D151B9ED7F800249954 /* segueControl.xib */,
+				84921D101B9EC5ED00249954 /* Third.storyboard */,
+				844285321B9C00E9008E8A13 /* AppDelegate.m */,
+			);
+			name = MainTableView;
+			sourceTree = "<group>";
+		};
+		8448F86B1BA0467C0097F637 /* SecondTable */ = {
+			isa = PBXGroup;
+			children = (
+				8448F86C1BA046A10097F637 /* Main.storyboard */,
+				8448F86E1BA046B70097F637 /* NextViewController.h */,
+				8448F86F1BA046B70097F637 /* NextViewController.m */,
+			);
+			name = SecondTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +253,9 @@
 				844285631B9C285D008E8A13 /* image.png in Resources */,
 				8442853C1B9C00E9008E8A13 /* Second.storyboard in Resources */,
 				844285411B9C00E9008E8A13 /* LaunchScreen.xib in Resources */,
-				84921D111B9EC5ED00249954 /* Main.storyboard in Resources */,
+				84921D111B9EC5ED00249954 /* Third.storyboard in Resources */,
 				8442853E1B9C00E9008E8A13 /* Images.xcassets in Resources */,
+				8448F86D1BA046A10097F637 /* Main.storyboard in Resources */,
 				84921D161B9ED7F800249954 /* segueControl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +279,7 @@
 				844285361B9C00E9008E8A13 /* TableView.xcdatamodeld in Sources */,
 				84921D141B9EC63000249954 /* SecondViewController.m in Sources */,
 				8442855E1B9C118C008E8A13 /* cTableViewController.m in Sources */,
+				8448F8701BA046B70097F637 /* NextViewController.m in Sources */,
 				844285391B9C00E9008E8A13 /* ViewController.m in Sources */,
 				844285301B9C00E9008E8A13 /* main.m in Sources */,
 			);
